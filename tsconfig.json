@@ -1,0 +1,15 @@
+{
+    "exclude": [
+    ],
+    "compilerOptions": {
+        "module" : "amd",           // 모든 파일을 모듈화 해서 컴파일해서, TypeScript 에서 사용하는 모듈 파일들을 async 로드 할 수 있도록 한다. amd, commonjs, umd, systemjs 등을 쓸 수 있음.
+        "outDir": "./dist",         // 결과 파일을 저장 할 경로.
+        "target": "es5",            // 컴파일 할 자바스크립트 버젼.
+        "watch": true,              // watch 모드로 실행해서, 소스가 변경되면 바로 컴파일 한다.
+        "sourceMap": true,          // source map 생성.
+        "declaration": false,       //
+        "noImplicitAny": false,
+        "removeComments": true,     // 주석 제거.
+        "noLib": false
+    }
+}
